@@ -1,0 +1,37 @@
+# Replace with your values
+$clientId = 'YOUR_CLIENT_ID'
+$clientSecret = 'YOUR_CLIENT_SECRET'
+$tenantId = 'YOUR_TENANT_ID'
+$datasetId = 'YOUR_DATASET_ID'
+$groupId = 'YOUR_GROUP_ID'
+
+# Define log file path
+$logFile = "C:\Path\To\RefreshLog.txt"
+
+# Function to log messages
+function Log-Message {
+    param ([string]$message)
+    $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    Add-Content -Path $logFile -Value "$timestamp - $message"
+}
+
+try {
+    Log-Message "Starting dataset refresh"
+
+    # Get an access token
+    $tokenResponse = Invoke-RestMethod -Method Post -Uri "https://login.microsoftonline.com/$tenantId/oauth2/v2.0/token" -ContentType "application/x-www-form-urlencoded" -Body @{
+        grant_type    = "client_credentials"
+        client_id     = $clientId
+        client_secret = $clientSecret
+        scope         = "https://analysis.windows.net/powerbi/api/.default"
+    }
+    $token = $tokenResponse.access_token
+
+    # Refresh the dataset
+    $refreshUri = "https://api.powerbi.com/v1.0/myorg/groups/$groupId/datasets/$datasetId/refreshes"
+    Invoke-RestMethod -Method Post -Uri $refreshUri -Headers @{ Authorization = "Bearer $token" }
+
+    Log-Message "Dataset refresh triggered successfully"
+} catch {
+    Log-Message "Error during dataset refresh: $_"
+}

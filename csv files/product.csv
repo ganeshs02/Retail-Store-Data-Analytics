@@ -1,0 +1,101 @@
+product_id,description,price,category,max_qty
+1,Biscuits,1.5,Baked goods,5
+2,Bread,1.25,Baked goods,5
+3,Cheeslings,2.45,Baked goods,5
+4,Croissants,2.99,Baked goods,5
+5,Gingerbread,1.75,Baked goods,5
+6,Pretzels,1.99,Baked goods,5
+7,Puff pastry,1.5,Baked goods,5
+8,Cup Cakes,1.89,Baked goods,5
+9,Doughnuts,2.99,Baked goods,5
+10,Milk Bread,1.79,Baked goods,5
+11,Coke,4.99,Beverages,3
+12,Fruit-drink,1.8,Beverages,5
+13,Grape Juice,2.98,Beverages,5
+14,Lemonade,0.99,Beverages,5
+15,Orange Juice,2.98,Beverages,5
+16,Pineapple,3.14,Beverages,3
+17,Thums-up,4.5,Beverages,3
+18,Ariel,3.88,Cleaning products,3
+19,Clorox Wipes,3.45,Cleaning products,3
+20,Dish soap,1.39,Cleaning products,5
+21,Lysol,2.99,Cleaning products,5
+22,Mr. Clean,2.79,Cleaning products,5
+23,Surf Excel,3.79,Cleaning products,3
+24,Windex,2.8,Cleaning products,5
+25,Barbecue Sauce,2.35,Condiments / Sauces,5
+26,Mayonnaise,2.98,Condiments / Sauces,5
+27,Mustard Sauce,2.15,Condiments / Sauces,5
+28,Olive,2.89,Condiments / Sauces,5
+29,Peanut butter,2.65,Condiments / Sauces,5
+30,Pickles,3.1,Condiments / Sauces,3
+31,Salsa,2.49,Condiments / Sauces,5
+32,Butter,3.09,Dairy,3
+33,Cheese,5.99,Dairy,1
+34,Milk,1.99,Dairy,5
+35,Sour cream,2.09,Dairy,5
+36,Whipped cream,2.39,Dairy,5
+37,Yogurt,2.69,Dairy,5
+38,Paneer,3.5,Dairy,3
+39,Butter Milk,2.75,Dairy,5
+40,Cottage Cheese,3.59,Dairy,3
+41,Curd,2.39,Dairy,5
+42,Apple,0.39,Fresh fruits,5
+43,Plums,3.99,Fresh fruits,3
+44,Berries,1.49,Fresh fruits,5
+45,Kiwis,0.99,Fresh fruits,5
+46,Lemons,0.69,Fresh fruits,5
+47,Melon,2.5,Fresh fruits,5
+48,Oranges,2.39,Fresh fruits,5
+49,Pears,3.99,Fresh fruits,3
+50,Avocados,2.6,Fresh vegetables,5
+51,Brocoli,2.49,Fresh vegetables,5
+52,Cabbage,0.87,Fresh vegetables,5
+53,Cauliflower,0.99,Fresh vegetables,5
+54,Celery,0.85,Fresh vegetables,5
+55,Cucumber,0.78,Fresh vegetables,5
+56,Lettuce,1.59,Fresh vegetables,5
+57,Onion,1.99,Fresh vegetables,5
+58,Potato,2.25,Fresh vegetables,5
+59,Pumpkin,2.79,Fresh vegetables,5
+60,Spinach,1.99,Fresh vegetables,5
+61,Zucchini,1.29,Fresh vegetables,5
+62,Burritos,6.5,Frozen,1
+63,Butter Chicken,3.79,Frozen,3
+64,Chicken Biryani,4.46,Frozen,3
+65,Chicken Wings,7.99,Frozen,1
+66,Fish Fingers,3.99,Frozen,3
+67,Fries,2.5,Frozen,5
+68,Hash Brown,2.59,Frozen,5
+69,Ice cream,3.99,Frozen,3
+70,Panner Butter Masala,3.5,Frozen,3
+71,pizza,6.59,Frozen,1
+72,Veggie burgers,3.84,Frozen,3
+73,Basen Flour,3.99,Grocery,3
+74,Choco Chips,0.95,Grocery,5
+75,Chocolate,8.79,Grocery,1
+76,Garlic,0.57,Grocery,5
+77,Ginger,0.59,Grocery,5
+78,Jaggery,3.8,Grocery,3
+79,Maida,3.57,Grocery,3
+80,Olive oil,4.98,Grocery,3
+81,Rava,3.59,Grocery,3
+82,Rice,7.99,Grocery,1
+83,Salt,0.21,Grocery,5
+84,Spices,2.5,Grocery,5
+85,Sugar,4.99,Grocery,3
+86,Tamarind,1.29,Grocery,5
+87,Wheat Flour,9.99,Grocery,1
+88,Rice Flour,3.99,Grocery,3
+89,Red Chills,2.78,Grocery,5
+90,Turmeric Powder,0.99,Grocery,5
+91,Candy,6.7,Snacks,1
+92,Chips,2.49,Snacks,5
+93,Dried Pears,5.99,Snacks,1
+94,Half Popped Popcorn,1.99,Snacks,5
+95,Honey Rosted Soybeans,2.99,Snacks,5
+96,Oatmeal,2.75,Snacks,5
+97,Organic Cashews,5.99,Snacks,1
+98,Organic Trail Mix,4.99,Snacks,3
+99,Roasted Pistachios,4.99,Snacks,3
+100,Vege-Straws,1.99,Snacks,5
